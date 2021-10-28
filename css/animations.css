@@ -1,0 +1,6 @@
+@keyframes fade {
+	from {
+			background-color: transparent;
+			color: transparent;
+		}
+}

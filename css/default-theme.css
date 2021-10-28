@@ -1,0 +1,56 @@
+/*Font`s*/
+
+
+/*Coolor`s*/
+
+/*Default*/
+.default {
+	background-color: #E5AE86;
+}
+
+/*Muted*/
+.muted {
+	background-color: #C38E63;
+	background: linear-gradient(90deg, rgba(195,142,99,0.77) 0%, rgba(157,151,84,100) 100%);
+}
+
+/*Secondary*/
+.secondary {
+	background-color: #9D9754;
+}
+
+/*Primarly*/
+.primarly {
+	background-color: #6E7649;
+}
+
+
+.header {
+	background: rgb(2,0,36);
+	background: linear-gradient(179deg, rgba(157,151,84,100) 0%, rgba(110,118,93,0.5) 100%);
+}
+
+.footer {
+	background: linear-gradient(179deg, rgba(110,118,93,0.77) 0%, rgba(157,151,84,100) 100%);
+}
+
+
+
+/*Annet*/
+.bg-secondary2 {
+	background-color: #46A908;
+}
+.bg-white {
+	background-color: white;
+	background-color: rgba(255,255,255,0.5);
+}
+
+/* BUNN FANER */
+#footer_container {
+	
+}
+
+/*Buttons*/
+.fane {
+	background-color: transparent;
+}

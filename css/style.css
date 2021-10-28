@@ -1,0 +1,285 @@
+html body {
+	background-image: url("/app/lokalmat/img/vete.png");
+	background-repeat: no-repeat;
+	background-size: 100% 1000px;
+	flex-direction: column;
+	margin: 0px;
+}
+
+#100-air {
+	display: block;
+	height: 200px;
+}
+
+/* HEADER */
+header {
+	/*position: fixed;*/
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding: 4px;
+	text-align: center;
+	z-index: 10;
+}
+
+/* LIST WIEW */
+#list_container {
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	flex-flow: center;
+}
+
+#list_container button {
+	padding: 5px;
+	width: 100%;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+#list_container button img{
+	display: block;
+	width: 200px;
+	height: 100px;
+	border-style: dotted;
+	border-width: 1px;
+}
+
+#list_container button .info{
+	margin-left: 5px;
+	width: 100%;
+}
+
+/* BUNN FANER */
+#footer_container {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+/* FLEX`S */
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	
+	}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex-column .mainImg {
+	display: block;
+	width: 70%;
+	height: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	background-color: white;
+}
+
+.flex-column .ico {
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Column`s*/
+.column-1 {
+	width: 100%;
+}
+
+.column-2 {
+	width: 49%;
+}
+
+.column-3 {
+	width: 33%;
+}
+/*Row`s*/
+.row-1 {
+	flex-grow: 1;
+}
+
+img.row-1 {
+	width: 60px;
+	height: 60px;
+}
+
+
+.row-list {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	border-style: dotted;
+	border-width: 1px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	
+	animation-name: fade;
+	animation-duration: 3s;
+}
+
+.row-2 {
+	flex-grow: 2;
+}
+
+.row-3 {
+	flex-grow: 3;
+}
+
+.row-4 {
+	width: 25%;
+}
+
+/* CENTER */
+.center {
+	text-align: center;
+}
+
+/* MAP */
+#map {
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+
+/*Buttons*/
+.fane {
+	width: 100%;
+	border: none;
+	height: 50px;
+}
+
+.bStandard {
+	width: 90%;
+	margin: 15px;
+	border: none;
+	background-color: trandsparent;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+}
+
+/*Margin & padding`s*/
+.mp5 {
+	margin: 5px;
+	padding: 5px;
+}
+
+.m15 {
+	margin: 15px;
+}
+
+/*Containere*/
+#main {
+	overflow-y: scroll;
+}
+.scrollBox {
+	overflow-y: scroll;
+}
+
+/*Forms*/
+
+input {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type=file] {
+	background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+textarea {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+/*div*/
+.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+#harth {
+	width: 30px;
+	height: 30px;
+}
+
+#harth button {
+	border: none;
+	background-color: transparent;
+}
+
+.warning {
+	font-size: 10px;
+}
+
+.leftEdge {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.rightEdge {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+a.call {
+	display: block;
+	width: 100%;
+	text-align: center;
+	background-color: pink;
+}
+
+a.mail {
+
+}
+
+a:link{
+	text-decoration: none;
+	color: inherit;
+}
+a:visited{
+    text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+a:active{
+	text-decoration: none;
+	color: inherit;
+}
+
+#profil {
+	display: block;
+	width: 150px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
